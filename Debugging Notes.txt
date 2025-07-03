@@ -1,0 +1,85 @@
+What is Debugging?
+
+Debugging is the process of analyzing and controlling program execution to understand its behaviour. It allows developers to pause the code at specific points, inspect variable values, and step through instructions to check if the program is running as expected. Debugging helps in tracking program flow and improving logic by observing how data changes at different stages. Tools like breakpoints, watch windows, and step-by-step execution assist in this process, making it easier to refine and optimize the program. 
+
+
+Ctrl + F5  -----> Start Without Debugging
+1. Runs the program without attaching the debugger.
+2. Useful for testing programs without breakpoints.
+  
+
+
+F5  ----> Start Debugging
+1. Starts the program in debug mode, allowing breakpoints and step-by-step execution.
+2.If there are no breakpoints, it runs normally until an exception occurs. 
+
+
+
+Shift + F5 ----> Stop Debugging
+1.Stops the debugging session immediately.
+2. The program terminates execution.
+
+
+Managing Breakpoints
+
+Breakpoints allow developers to pause the execution at specific lines of code for debugging. They help inspect variable values and program flow to identify and fix issues efficiently.
+
+
+F9 ---> Toggle Breakpoint
+1.Adds or removes a breakpoint on the selected line.
+2.A breakpoint pauses execution at a specific line for debugging.
+
+
+
+Debugging Window
+
+Debugging windows like Watch, immediate, and Call Stack helps track variable values, execute expressions, and analyze program flow. These tools provide deeper insights into code execution during debugging.
+
+
+
+Shift + F9 ---> Watch Window
+1. Opens the Watch Window, where you can track variable values while debugging. 
+2. Useful for monitoring variable changes during execution.
+
+
+Ctrl + Alt + I ---> Immediate Window
+
+1. Allows running code snippets while debugging.(it refers to the platform's capability to execute and test code directly within the chat interface. This feature enables users to input code, receive immediate feedback, and interactively debug or refine their code snippets.)
+2. You can modify variables, execute expressions, or call methods dynamically.
+
+
+Ctrl + Shift + F10 ---> Set Next Statement
+1. Moves the execution pointer to different line without re-running previous code.
+2. Useful if you want to retry execution from a specific line.
+
+
+
+Stepping Through Code
+
+Stepping through code helps execute the program line by line, allowing developers to analyze logic and debug efficiently. It includes stepping over, stepping into, and setting the next statement to control execution flow.
+
+
+
+F10 ---> Step Over
+1.Executes the next line of code without executing methods.
+If the next line contains a method call, the debugger executes the whole method but does not step inside it.
+
+
+F11  ---> Step Into
+1. Executes the next line of code and enters the method definition if a method all is present.
+2. Useful for analyzing method internals step by step.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
