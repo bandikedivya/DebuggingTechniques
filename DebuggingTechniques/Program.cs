@@ -19,7 +19,7 @@
         string DOB = "05-06-1994";
         Console.WriteLine($"Showing the data before Check Point 3: {empDesignation}, {DOB}");
 
-        Console.WriteLine("*************CheckPoint-3************");
+        Console.WriteLine("*************CheckPoint-3*************");
         int[] ID = { 1101, 1102, 1103 };
         string[] bankNames = { "HDFC", "AXIS", "ICICI" };
         Console.WriteLine("You are at the End of Checkpoints");
